@@ -1,0 +1,54 @@
+version: "2.0"
+
+stories:
+
+- story: Story admission
+  steps:
+  - intent: salutation
+  - action: utter_salutation
+  - intent: admission
+  - action: utter_admission
+  - intent: admission
+  - action: utter_admission
+
+- story: Story vire en tunisie
+  steps:
+  - intent: salutation
+  - action: utter_salutation
+  - intent: vivre_en_tunisie
+  - action: utter_vivre_en_tunisie
+
+- story: Story simple
+  steps:
+  - intent: salutation
+  - action: utter_salutation
+
+- story: Story dialog 1
+  steps:
+  - intent: salutation
+  - action: utter_salutation
+  - intent: about_polytech
+  - action: utter_about_polytech
+  - intent: about_polytech
+  - action: utter_salutation
+  - intent: master
+  - action: utter_master
+  - intent: licence
+  - action: utter_licence
+  - intent: prepa
+  - action: utter_prepa
+  - intent: cycle_ingenieur
+  - action: utter_cycle_ingenieur
+  - intent: vivre_en_tunisie
+  - action: utter_vivre_en_tunisie
+  - intent: carte_de_sejour_intl
+  - action: utter_sejour
+
+- story: interactive_story_1
+  steps:
+  - intent: inscription
+  - action: utter_inscription
+  - intent: inscription
+  - action: utter_inscription
+  - intent: inscription
+  - action: utter_inscription

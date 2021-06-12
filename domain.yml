@@ -1,0 +1,80 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- inscription
+- master
+- cycle_ingenieur
+- salutation
+- licence
+- vivre_en_tunisie
+- carte_de_sejour_intl
+- about_polytech
+- stop
+- admission
+- formations
+- prepa
+- license
+- international
+- au_revoir
+- remerciement
+- hebergement_intl
+- bye
+responses:
+  utter_inscription:
+  - text: Pour s'inscrire, il vous faut valider une demande d'admission à l'endroit de notre université.
+  utter_salutation:
+  - text: Bonjour à vous. Je suis là si vous avez d'éventuelles questions sur notre université.
+  utter_admission:
+  - text: |2-
+       1. Il faut choisir son programme de formation
+       2. Remplire une demande d’amission en ligne
+       3. Attendre un retour de l’université
+  utter_prepa:
+  - text: La prépa a lieu la première année et la deuxième année
+  utter_cycle_ingenieur:
+  - text: |2-
+       Le cycle ingénieur dispose de nombreuses filères comme : 
+      • Architecture 
+      • Genie industriel 
+      • Mécatronique 
+      • Informatique, Reseaux et multimedia 
+      • Big Data et Business Intelligence 
+      • IT finance 
+      • Système d’information du Logiciel 
+      • Système embarqué et mobiles.
+       
+  utter_licence:
+  - text: Notre université dispose d'un cursus licence en informatique disponible de la 1ere à la 3eme année.
+  utter_master:
+  - text: Nous proposons un M. canadien en developpement, un M.en Ingénieurie des Logiciel, un M. en Bulding Information et Modeling (BIM). Nous avons aussi un M. en Management Integré Qualité Sécurité et Environnement et un M. en Data Science.
+  utter_international:
+  - text: |-
+      L'admission à Polytech Intl se fait sur tests et se déroule en trois étapes :
+       1. Admissibilité sur étude du dossier
+       2. Test d’admission (aptitudes générales et entretien individuel cas échéant)
+       3. Envoi du dossier d'inscription.
+       
+  utter_hebergement:
+  - text: Une fois sur le territoire tunisien, l’étudiant est accueilli à l’aéroport et pris en charge par le service vie étudiante. L’accompagnement et l’assistance seront assurés pendant la première semaine de son arrivée par le service des étudiants internationaux.
+  utter_sejour:
+  - text: Polytech INTL accompagne les étudiants internationaux dans la préparation et le dépôt de leurs dossiers auprès des autorités tunisiennes afin d'obtenir la carte de séjour.
+  utter_vivre_en_tunisie:
+  - text: La Tunisie fait partie des pays les moins chers du monde. L’unité monétaire est le dinar. Un euro vaut environ 3.5 dinars. La Tunisie jouit d’un climat méditerranéen.
+  utter_about_polytech:
+  - text: Polytech est une université tunisienne qui forme ses étudiants aux métiers du numérique. Elle offre un cycle préparatoire et des cycles licences et masters.
+  
+  utter_bye:
+  - text: Nous vous remercions. N'hésitez pas à nous revenir pour d'éventuelles préoccupation.
+actions:
+- utter_about_polytech
+- utter_admission
+- utter_inscription
+- utter_licence
+- utter_master
+- utter_prepa
+- utter_salutation
+- utter_sejour
+- utter_vivre_en_tunisie
+- utter_bye

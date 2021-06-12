@@ -1,0 +1,100 @@
+version: "2.0"
+nlu:
+- intent: about_polytech
+  examples: |
+    - a propos de Polytech
+    - c'est quoi polytech ?
+    - que fait votre université ?
+    - Que fait Polytech ?
+    - Quelles sont les fillieres disponibles ?
+- intent: salutation
+  examples: |
+    - bonjour
+    - hello
+    - comment allez vous ?
+    - Bonjour
+- intent: inscription
+  examples: |
+    - je souhaite m'inscrire
+    - je veux m'inscrire
+    - j'aimerai m'inscrire
+    - inscription
+    - comment s'inscrire ?
+    - s'inscrire ?
+    - inscription 
+    - comment puis m'inscrire à Polytech 
+- intent: admission
+  examples: |
+    - admission
+    - comment être admis ?
+    - admis ?
+    - reussir son admission
+- intent: prepa
+  examples: |
+    - Vous avez un cycle preparatoire ?
+    - preparatoire
+- intent: cycle_ingenieur
+  examples: |
+    - cycle ingenieur
+    - information sur le cycle ingenieur
+    - ingenieur
+    - ingenieurie
+- intent: licence
+  examples: |
+    - license
+    - licence
+    - cursus licence
+    - comment avoir la licence
+    - il y a quoi dans la licence
+    - après la prépa
+    - Et la license ?
+- intent: master
+  examples: |
+    - master
+    - le parcours master
+    - le cursus master
+    - programme master
+    - après la licence
+    - programme post licence
+    - Comment se passe le master ?
+- intent: international
+  examples: |
+    - international
+    - etudiants internationaux
+- intent: hebergement_intl
+  examples: |
+    - logement international
+    - hebergement pour les etudiants internationaux
+    - logement pour les etudiants internationaux
+    - etudiants accompagement
+    - accompagement des etudiants internationaux
+- intent: carte_de_sejour_intl
+  examples: |
+    - carte de sejour
+    - sejour des etudiants internationaux
+    - carte de sejour pour les etudiants externes
+    - dossiers pour les étudiants internationaux
+    - Offrez vous des facilitées pour la carte de séjour ?
+- intent: vivre_en_tunisie
+  examples: |
+    - vivre en tunisie
+    - la vie en tunisie
+    - coût de la vie en tunisie
+    - combien coûte la vie en tunisie
+    - le climat en tunisie
+    - la tunisie
+    - comment on vit en tunisie ?
+    - la vie a Polytech TNL
+    - Comment étudier en tunise ?
+    - Comment on vit en Tunisie ?
+
+- intent: bye
+  examples: |
+    - merci
+    - au revoir
+    - thanks
+    - merci beaucoup
+    - merci a vous
+    - arigato
+    - good bye  
+    - bye

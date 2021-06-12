@@ -1,0 +1,61 @@
+version: "2.0"
+
+rules:
+
+- rule: salutation
+  steps:
+  - intent: salutation
+  - action: utter_salutation
+
+- rule: inscription
+  steps:
+  - intent: inscription
+  - action: utter_inscription
+ 
+- rule: admission
+  steps: 
+  - intent: admission
+  - action: utter_admission
+
+- rule: ingenieur
+  steps: 
+  - intent: cycle_ingenieur
+  - action: utter_cycle_ingenieur
+
+- rule: licence
+  steps: 
+  - intent: licence
+  - action: utter_licence
+
+- rule: master
+  steps: 
+  - intent: master
+  - action: utter_master
+
+- rule: intl
+  steps: 
+  - intent: international
+  - action: utter_international
+
+- rule: sejour
+  steps: 
+  - intent: carte_de_sejour_intl
+  - action: utter_sejour
+
+- rule: vivre
+  steps: 
+  - intent: vivre_en_tunisie
+  - action: utter_vivre_en_tunisie
+
+- rule: bye
+  steps:
+  - intent: bye
+  - action: utter_bye
+
+
+
+
+
+
+
+  
